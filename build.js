@@ -33,7 +33,7 @@ var metalsmith = Metalsmith(__dirname)
   }))
   .build(function(err, files) {
     if (err) { throw err; }
-    console.log('Build finished!');
+    console.log('Done!');
   });
 
 
