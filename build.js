@@ -7,10 +7,12 @@ var assets      = require('metalsmith-assets');
 
 var metalsmith = Metalsmith(__dirname)
   .metadata({
-    title: "My Static Site & Blog",
-    description: "It's about saying »Hello« to the World.",
-    generator: "Metalsmith",
-    url: "http://www.metalsmith.io/"
+    title: "CouponCoCo.org",
+    description: "open coupon for everyone",
+    keywords: "blockchain, payment, micro payment, coupon, free coupon",
+    author: "CouponCoco Core Contributors",
+    generator: "metalsmith",
+    url: "https://couponcoco.org/"
   })
   .source('src')
   .destination('public')
